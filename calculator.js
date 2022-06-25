@@ -15,7 +15,7 @@ for (let op in operations) {
 
 }
 function performAgain() {
-   alert(`Thank you for using Work with simple Calculator! \n\nDo you want to do more calculations?\n\n KINDLY RELOAD THE PAGE!!`)
+   alert(`Thank you for using Work with simple Calculator! \n\nDo you want to do more Calculations?\n\n KINDLY RELOAD THE PAGE!!`)
     
 }
 
@@ -59,7 +59,7 @@ else if( init == 4) {
 }
 else{
     let check1 ="Please enter either; 1, 2, 3 or 4"
-    init = prompt(`${check1}\n${req}\n\n${operateAlert}`)
+    init = prompt(`${check1}\n${question}\n\n${operateAlert}`)
     
 }
  }while(calculate);
